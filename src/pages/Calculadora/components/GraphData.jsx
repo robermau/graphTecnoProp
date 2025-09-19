@@ -4,6 +4,7 @@ import { useState, useContext, useEffect } from 'react';
 import { AlquileresContext } from "../context/AlquileresContext";
 
 const BUTTONS = [
+  { key: "iclRate", label: "ICL", color: "bg-blue-300", lineColor: "#2563eb" },
   { key: "cacRate", label: "CAC", color: "bg-pink-300", lineColor: "#db2777" },
   { key: "ipcRate", label: "IPC", color: "bg-green-300", lineColor: "#22c55e" },
   { key: "casaPropiaRate", label: "Casa Propia", color: "bg-yellow-300", lineColor: "#eab308" },
