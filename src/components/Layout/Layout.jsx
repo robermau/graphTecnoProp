@@ -6,7 +6,7 @@ import Calculadora from '../../pages/Calculadora/Calculadora'
 
 const Layout = () => {
   return (
-     <div className='flex flex-col min-h-screen lg:h-full'>
+     <div className='flex flex-col '>
 
       <div className='grow'>
         <div className='flex justify-center'>
